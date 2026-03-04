@@ -1,0 +1,31 @@
+# ===== 基础依赖 =====
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-core>=0.3.0
+langchain-text-splitters>=0.3.0
+
+# ===== 向量数据库 =====
+langchain-chroma>=0.2.0
+chromadb>=0.5.0
+
+# ===== LLM 模型 =====
+dashscope>=1.20.0
+
+# ===== Web 工具 =====
+beautifulsoup4>=4.12.0
+requests>=2.32.0
+
+# ===== PDF 生成 =====
+reportlab>=4.2.0
+
+# ===== 工具库 =====
+python-dotenv>=1.0.0
+pydantic>=2.9.0
+
+# ===== 金融数据（YuFinance Agent 专用）=====
+akshare>=1.14.0   # A股行情数据，免API Key，覆盖沪深全市场
+
+# ===== API Server =====
+fastapi>=0.115.0
+uvicorn>=0.30.0
+sse-starlette>=2.1.0
